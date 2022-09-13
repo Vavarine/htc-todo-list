@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  margin-right: 10px;
+  padding-inline: 20px;
+
+  border-radius: 5px;
+  border: solid 1px #3c3c3c;
+  font-size: 18px;
+}
+
+.submit {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+
+  background-color: #3c3c3c;
+  transition: background-color 0.2s;
+}
+
+.submit:hover {
+  background-color: #505050;
+}
